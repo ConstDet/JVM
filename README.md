@@ -1,5 +1,6 @@
 <h3>Java Virtual Machine. Виртуальная машина Java</h3>
 <h7>Рассмотрим, как она работает на примере загрузки и выполнения класса:</h7>
+
 ```Java
 public class JvmComprehension {
 
@@ -17,6 +18,7 @@ public class JvmComprehension {
     }
 }
 ```
+
 ##### Что бы загрузить класс ```class JvmComprehension``` в JVM его необходимо... загрузить. 
 Для этого существуют специальные классы-загрузчики ```ClassLoader```:
   * ```Bootstrap```, как базовый загрузчик
